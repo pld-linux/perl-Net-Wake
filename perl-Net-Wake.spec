@@ -3,8 +3,8 @@ Summary:	Net-Wake perl module
 Summary(pl):	Modu³ perla Net-Wake
 Name:		perl-Net-Wake
 Version:	0.01
-Release:	0
-License:	as perl itself
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
@@ -15,9 +15,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Wake
-This package sends wake-on-lan packets to turn on machines that are
-wake-on-lan capable.
+Net-Wake This package sends wake-on-lan packets to turn on machines
+that are wake-on-lan capable.
 
 %prep
 %setup -q -n Net-Wake-%{version}
