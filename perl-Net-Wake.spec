@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Wake
-Summary:	Net-Wake perl module
-Summary(pl):	Modu³ perla Net-Wake
+Summary:	Net::Wake perl module
+Summary(pl):	Modu³ perla Net::Wake
 Name:		perl-Net-Wake
 Version:	0.01
 Release:	4
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Wake: this package sends wake-on-lan packets to turn on machines
+Net::Wake: this package sends wake-on-lan packets to turn on machines
 that are wake-on-lan capable.
 
 %description -l pl
-Modu³ Net-Wake wysy³a pakiety wake-on-lan w celu w³±czenia maszyn
+Modu³ Net::Wake wysy³a pakiety wake-on-lan w celu w³±czenia maszyn
 obs³uguj±cych tê funkcjê.
 
 %prep
