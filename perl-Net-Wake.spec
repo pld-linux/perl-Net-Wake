@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Wake
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-Wake perl module
 Summary(pl):	Modu³ perla Net-Wake
 Name:		perl-Net-Wake
 Version:	0.01
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Modu³ Net-Wake wysy³a pakiety wake-on-lan w celu w³±czenia maszyn
 obs³uguj±cych tê funkcjê.
 
 %prep
-%setup -q -n Net-Wake-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
