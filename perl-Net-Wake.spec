@@ -4,12 +4,12 @@
 Summary:	Net::Wake perl module
 Summary(pl):	Modu³ perla Net::Wake
 Name:		perl-Net-Wake
-Version:	0.01
-Release:	5
+Version:	0.02
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f6b9d89888153ef4f8c0e55456f6c80e
+# Source0-md5:	c9514b5fb43a06b3343b5c0a498b624e
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
