@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Wake
+%define		pdir	Net
+%define		pnam	Wake
 Summary:	Net::Wake perl module
 Summary(pl):	Modu³ perla Net::Wake
 Name:		perl-Net-Wake
