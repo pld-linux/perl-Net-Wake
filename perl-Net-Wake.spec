@@ -28,7 +28,7 @@ obs³uguj±cych tê funkcjê.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
