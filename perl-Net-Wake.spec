@@ -34,15 +34,14 @@ obs³uguj±cych tê funkcjê.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-
-#gzip -9nf README
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-#%doc *.gz
+%doc Changes
 %{perl_vendorlib}/Net/Wake.pm
 %{_mandir}/man3/*
