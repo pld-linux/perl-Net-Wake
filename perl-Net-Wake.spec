@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Wake
 Summary:	Net::Wake perl module
-Summary(pl):	Modu³ perla Net::Wake
+Summary(pl.UTF-8):   ModuÅ‚ perla Net::Wake
 Name:		perl-Net-Wake
 Version:	0.02
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Net::Wake: this package sends wake-on-lan packets to turn on machines
 that are wake-on-lan capable.
 
-%description -l pl
-Modu³ Net::Wake wysy³a pakiety wake-on-lan w celu w³±czenia maszyn
-obs³uguj±cych tê funkcjê.
+%description -l pl.UTF-8
+ModuÅ‚ Net::Wake wysyÅ‚a pakiety wake-on-lan w celu wÅ‚Ä…czenia maszyn
+obsÅ‚ugujÄ…cych tÄ™ funkcjÄ™.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
