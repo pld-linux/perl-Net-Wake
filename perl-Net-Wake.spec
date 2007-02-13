@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Wake
 Summary:	Net::Wake perl module
-Summary(pl.UTF-8):   Moduł perla Net::Wake
+Summary(pl.UTF-8):	Moduł perla Net::Wake
 Name:		perl-Net-Wake
 Version:	0.02
 Release:	1
