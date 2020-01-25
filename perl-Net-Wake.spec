@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	Wake
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::Wake perl module
 Summary(pl.UTF-8):	Moduł perla Net::Wake
 Name:		perl-Net-Wake
